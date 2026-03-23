@@ -150,3 +150,6 @@ ELECTION_TITLE_PATH = os.path.join(
     BASE_DIR, 'election_title.txt')  # Election Title File
 
 SEND_OTP = False
+CSRF_TRUSTED_ORIGINS = ['https://127.0.0.1:8000',
+                        'https://127.0.0.1:8000',
+                        ]
